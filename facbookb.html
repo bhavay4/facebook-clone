@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <style>
+      body{
+          padding: 0px;
+          margin: 0px;
+         }
+    </style>
+	<script>
+	function check()
+	{
+	  if (f1.uid.value=="")
+	{alert("plz input some value");
+	return false;
+	}
+	
+	  if (f1.pass.value=="")
+	{alert("plz input some value");
+	return false;
+	}
+	}
+	
+	
+	</script>
+   <link rel="stylesheet" href="facbook.css" >
+    <title>Untitled Page</title>
+</head>
+<body style="background-color:#e8e9ed">
+    <div id="head">
+    <img src="fblogo.png" alt="" style="height: 80px; margin-left: 10px; margin-top: 10px;">
+    <div class="form1">
+    
+<form name="f1" action="fb.html" method="get" onsubmit="return(check())">
+    <lable>Name/PhoneNo.</lable>
+    <input id="Text1" type="text" name="uid" />
+      <lable>Password</lable>
+       <input id="Text2" type="password" name="pass" />
+       <button class="submit" ><img src="login.JPG" alt="" width="45px"></button>
+       
+    </form>
+       </div>  
+    </div>
+    <div id="left">
+       
+        <p style="margin-top:"><b>Facebook helps you connect and share with the people in your life.</b></p><br>
+        <img src="side.png" alt="">
+    </div>
+<div id="signup">
+    <h1>Create an account</h1>
+<h3>It's free and always will be.</h3>
+<form action="fb.html" class="fo">
+      
+       <input id="Text3" type="text" size="20" placeholder="Name"/> &nbsp;
+       <input id="Text4" type="text" size="20" placeholder="Surname" /><br><br>
+       <input id="Text5" type="text" size="46" placeholder="Email Id"/><br> <br><input id="Password1" type="password" size="46"placeholder="Password"/><br><br>
+    <lable><b>Birthday</b></lable>
+    <br><br>
+    <select class="se" id="Select1">
+       <option value="">Day</option>
+        <option value="">1</option>
+        <option value="">2</option>
+        <option value="">3</option>
+        <option value="">4</option>
+        <option value="">5</option>
+        <option value="">6</option>
+        <option value="">7</option>
+        <option value="">8</option>
+        <option value="">9</option>
+        <option value="">10</option>
+        <option value="">11</option>
+        <option value="">12</option>
+        <option value="">13</option>
+        <option value="">14</option>
+        <option value="">15</option>
+        <option value="">16</option>
+        <option value="">17</option>
+        <option value="">18</option>
+        <option value="">19</option>
+        <option value="">20</option>
+        <option value="">21</option>
+        <option value="">22</option>
+        <option value="">23</option>
+        <option value="">24</option>
+        <option value="">25</option>
+        <option value="">26</option>
+        <option value="">27</option>
+        <option value="">28</option>
+        <option value="">29</option>
+        <option value="">30</option>
+        <option value="">31</option>
+    </select>&nbsp;
+       
+    <select class="se" id="Select2">
+       <option value="">Month</option>
+        <option value="">1</option>
+        <option value="">2</option>
+        <option value="">3</option>
+        <option value="">4</option>
+        <option value="">5</option>
+        <option value="">6</option>
+        <option value="">7</option>
+        <option value="">8</option>
+        <option value="">9</option>
+        <option value="">10</option>
+        <option value="">11</option>
+        <option value="">12</option>
+    </select>&nbsp;
+    <select class="se" id="Select3">
+       <option value="">Year</option>
+        <option value="">2016</option>
+    </select><br><br>
+       <input class="in" id="Radio1" type="radio" name="a" /><lable>Male</lable>
+       <input class="in" id="Radio2" type="radio" name="b" />
+       <lable>Female</lable><br><br><br>
+       <input class="in" id="Submit2" type="image"
+       src="creat.JPG" value="submit" />
+        </form>
+    </div>
+</body>
+</html>
